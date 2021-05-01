@@ -143,7 +143,6 @@ footer {
 
 @media (min-width: 576px) {
 
-
     header {
         display: flex;
         flex-direction: column;
@@ -184,6 +183,7 @@ footer {
         flex-direction: column;
         align-self: center;
         margin-top: 0;
+        padding-left: 200px;
     }
 
     .formulario {

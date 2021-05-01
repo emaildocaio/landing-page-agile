@@ -43,20 +43,20 @@
                     <img src="" alt="">
                 </div>
                 <div class="formulario-campos">
-                    <form action="">
+                    <form action="cadastrado.html" method="GET"> 
                         <div class="nome-form">
                             <div class="campo-form mt-3">
-                                <label for="">Nome</label>
-                                <input type="text" name="" id="">
+                                <label for="">Nome *</label>
+                                <input type="text" name="nome" id="nome" required>
                             </div>
                             <div class="campo-form mt-3">
-                                <label for="">Sobrenome</label>
-                                <input type="text" name="" id="">
+                                <label for="">Sobrenome *</label>
+                                <input type="text" name="sobrenome" id="sobrenome" >
                             </div>
                         </div>
                         <div class="campo-form mt-3">
                             <label for="">Email</label>
-                            <input type="email">
+                            <input type="email" name="email" id="email" >
                         </div>
                         <div class="empresa-form">
                             <div class="campo-form mt-3">
@@ -65,7 +65,7 @@
                             </div>
                             <div class="campo-form mt-3">
                                 <label for="">Empresa</label>
-                                <input type="text" name="" id="">
+                                <input type="text" name="" id="empresa" >
                             </div>
                         </div>
                         <div class="detalhe-curso">
@@ -112,7 +112,7 @@
                             <label for="">Dúvidas ou comentários <span>(opicional)</span></label>
                             <textarea class="mt-2" rows="4" cols="30" name="comment" form="usrform" placeholder="Digite sua mensagem..."></textarea>
                         </div>
-                        <input class=" botao mt-3 mb-3" type="submit" value="Inscreva-se">
+                        <input class=" botao mt-3 mb-3" type="submit" value="Inscreva-se" onclick="obrigado()">
                         <p>Clicando em "Inscreva-se" você concorda em receber mensagens e emails de comunicações enviadas por nós de acordo com a nossa <a href="#">Política de Privacidade.</a> </p>
                     </form>
                 </div>   
