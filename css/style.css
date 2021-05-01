@@ -83,6 +83,7 @@ h2 {
 .formulario {
     background-color: rgba(128, 128, 128, 0.1);
     padding-bottom: 2rem;
+    
 }
 
 form {
@@ -90,32 +91,54 @@ form {
     padding: 1.5rem;
     border-radius: 0.5rem;
     box-shadow: 3px 3px 3px rgb(159, 159, 159);
-    margin-bottom: 2rem;
+    margin: 0 1rem 2rem 1rem;
 }
 
 .formulario h2 {
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .campo-form {
     display: grid;
 }
 
+#phone {
+    width: 100%;
+}
+
+input, textarea {
+    border: 1px solid rgb(206, 206, 206);
+    line-height: 1.5rem;
+}
+
 input[type="submit"] {
     background-color: #ec4f4d;
     color: white;
     border: 0;
-    padding: 0.5rem 2rem;
+    padding: 0.8rem 2rem;
     width: 100%;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #9d0c0a;
 }
 
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0.6rem;
     font-size: 0.8rem;
     background-color: #ec504d;
     color: white;
     font-weight: 400;
-    text-align: center;
+}
+
+.obrigado-conteudo {
+    max-width: 80vw;
+    margin: 0 auto;
 }
 
 @media (min-width: 576px) {
@@ -140,7 +163,6 @@ footer {
 
     form {
         font-size: 0.8rem;
-        width: ;
     }
 
     .detalhe-curso {
@@ -174,7 +196,7 @@ footer {
 
     form {
         font-size: 0.8rem;
-        width: ;
+
     }
 
     .detalhe-curso {
@@ -186,3 +208,44 @@ footer {
     }
 }
 
+/* Thank you page */
+
+.obrigado{
+   
+    background-color: rgb(232, 232, 232);
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.obrigado h1 {
+    margin-top: 3.5rem;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.obrigado-conteudo {
+    max-width: 80vw;
+    margin: 6rem auto;
+}
+
+.obrigado a {
+    text-decoration: none;
+    color: #ec4f4d;
+}
+
+.obrigado a:hover {
+    text-decoration: none;
+    color:#9d0c0a;
+}
+
+.fa-check {
+    color: green;
+    font-size: 150px;
+}
+
+
+.footer-obrigado {
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
