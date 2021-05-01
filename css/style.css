@@ -1,0 +1,188 @@
+/* Menu */
+
+nav{
+    color: #ec4f4d;
+}
+
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #ec504d;
+    color: white;
+  }
+
+/* Página */
+
+header {
+    margin-top: 1rem;
+}
+
+.titulo-header {
+    display: flex;
+    flex-direction: column-reverse;
+    font-family: "Raleway";
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+}
+
+h2 {
+    margin-bottom: -0.1rem;
+}
+
+
+.paragrafo-header {
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+.imagem-header {
+    width: 90vw;
+}
+
+.formulario {
+    background-color: rgba(128, 128, 128, 0.1);
+    padding-bottom: 2rem;
+}
+
+form {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 3px rgb(159, 159, 159);
+    margin-bottom: 2rem;
+}
+
+.formulario h2 {
+    font-size: 1.5rem;
+}
+
+.campo-form {
+    display: grid;
+}
+
+input[type="submit"] {
+    background-color: #ec4f4d;
+    color: white;
+    border: 0;
+    padding: 0.5rem 2rem;
+    width: 100%;
+}
+
+footer {
+    padding: 0.6rem;
+    font-size: 0.8rem;
+    background-color: #ec504d;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media (min-width: 576px) {
+
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        margin-top: 0;
+    }
+
+    .formulario {
+        padding: 3rem;
+        margin: 0;
+        width: 100%;
+    }
+
+    .imagem-header {
+        width: 100%;
+    }
+
+    form {
+        font-size: 0.8rem;
+        width: ;
+    }
+
+    .detalhe-curso {
+        display: flex;
+    }
+
+    footer {
+     max-width: 100vw;
+    }
+}
+
+@media (min-width: 900px) {
+    .conteudo {
+        display: flex;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        margin-top: 0;
+    }
+
+    .formulario {
+        padding: 0 3rem;
+    }
+
+    .imagem-header {
+        width: 100%;
+    }
+
+    form {
+        font-size: 0.8rem;
+        width: ;
+    }
+
+    .detalhe-curso {
+        display: flex;
+    }
+
+    footer {
+     max-width: 100vw;
+    }
+}
+
