@@ -30,11 +30,11 @@
         </nav>
         <div class="conteudo">
             <header class="container">
-                <div class="titulo-header mt-5">
+                <div class="titulo-header mt-5 ps-3 pe-3">
                     <h1>Métodos Ágeis, Inovação & Gestão</h1>
                     <h2>Curso de</h2>
                 </div>
-                <p class="paragrafo-header">Pratique Kanban, Scrum e Agile para fazer com que a equipe toda entregue resultados e detecte gargalos e problemas de desenvolvimento, não apenas nas equipes técnicas! Saiba como começar com Métodos Ágeis.</p>
+                <p class="paragrafo-header ps-3 pe-3">Pratique Kanban, Scrum e Agile para fazer com que a equipe toda entregue resultados e detecte gargalos e problemas de desenvolvimento, não apenas nas equipes técnicas! Saiba como começar com Métodos Ágeis.</p>
                 <img class="imagem-header" src="imagens/metodologias.jpg" alt="">
             </header>
             <section class="formulario">
@@ -51,12 +51,12 @@
                             </div>
                             <div class="campo-form mt-3">
                                 <label for="">Sobrenome *</label>
-                                <input type="text" name="sobrenome" id="sobrenome" >
+                                <input type="text" name="sobrenome" id="sobrenome" required>
                             </div>
                         </div>
                         <div class="campo-form mt-3">
-                            <label for="">Email</label>
-                            <input type="email" name="email" id="email" >
+                            <label for="">Email *</label>
+                            <input type="email" name="email" id="email" required>
                         </div>
                         <div class="empresa-form">
                             <div class="campo-form mt-3">
@@ -109,7 +109,7 @@
                             </div>
                         </div>
                         <div class="campo-form mt-3">
-                            <label for="">Dúvidas ou comentários <span>(opicional)</span></label>
+                            <label for="">Dúvidas ou comentários <span>(opcional)</span></label>
                             <textarea class="mt-2" rows="4" cols="30" name="comment" form="usrform" placeholder="Digite sua mensagem..."></textarea>
                         </div>
                         <input class=" botao mt-3 mb-3" type="submit" value="Inscreva-se" onclick="obrigado()">
